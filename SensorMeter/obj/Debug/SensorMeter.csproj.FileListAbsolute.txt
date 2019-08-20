@@ -1,0 +1,134 @@
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\sb-admin-2.Web.dll.config
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\sb-admin-2.Web.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\sb-admin-2.Web.pdb
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\Antlr3.Runtime.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\Microsoft.Web.Infrastructure.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\Newtonsoft.Json.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Helpers.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Mvc.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Optimization.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Razor.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.WebPages.Deployment.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.WebPages.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.WebPages.Razor.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\WebGrease.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Helpers.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Mvc.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Optimization.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Razor.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.WebPages.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.WebPages.Deployment.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.WebPages.Razor.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\Antlr3.Runtime.pdb
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\Newtonsoft.Json.xml
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\obj\Debug\sb-admin-2.Web.dll
+c:\users\syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\obj\Debug\sb-admin-2.Web.pdb
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\EntityFramework.dll
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\EntityFramework.SqlServer.dll
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Net.Http.Formatting.dll
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Http.dll
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Http.WebHost.dll
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\EntityFramework.xml
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\EntityFramework.SqlServer.xml
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Net.Http.Formatting.xml
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Http.xml
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\bin\System.Web.Http.WebHost.xml
+C:\Users\Syed\documents\visual studio 2013\Projects\SensorMeter\SensorMeter\obj\Debug\SensorMeter.csprojResolveAssemblyReference.cache
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\obj\Debug\SensorMeter.csprojResolveAssemblyReference.cache
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\obj\Debug\sb-admin-2.Web.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\obj\Debug\sb-admin-2.Web.pdb
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\sb-admin-2.Web.dll.config
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\sb-admin-2.Web.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\sb-admin-2.Web.pdb
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Antlr3.Runtime.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\EntityFramework.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\EntityFramework.SqlServer.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.Owin.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.Owin.Security.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Newtonsoft.Json.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Owin.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Net.Http.Formatting.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Helpers.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Http.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Http.WebHost.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Mvc.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Optimization.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Razor.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.WebPages.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.WebPages.Razor.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\WebGrease.dll
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\EntityFramework.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\EntityFramework.SqlServer.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.Owin.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Microsoft.Owin.Security.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Net.Http.Formatting.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Http.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Http.WebHost.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Helpers.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Mvc.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Optimization.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.Razor.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.WebPages.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\System.Web.WebPages.Razor.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Antlr3.Runtime.pdb
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\bin\Newtonsoft.Json.xml
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\obj\Debug\RdlCompile.cache
+D:\Projects\SensorMeter\SensorMeter\SensorMeter\obj\Debug\RdlCompile.compiled
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\obj\Debug\SensorMeter.csprojAssemblyReference.cache
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\obj\Debug\SensorMeter.csproj.CoreCompileInputs.cache
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\obj\Debug\sb-admin-2.Web.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\obj\Debug\sb-admin-2.Web.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\sb-admin-2.Web.dll.config
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\sb-admin-2.Web.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\sb-admin-2.Web.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Antlr3.Runtime.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\EntityFramework.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\EntityFramework.SqlServer.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.Owin.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.Owin.Security.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.Web.Infrastructure.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Newtonsoft.Json.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Owin.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Net.Http.Formatting.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Helpers.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Http.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Http.WebHost.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Mvc.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Optimization.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Razor.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.WebPages.Deployment.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.WebPages.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.WebPages.Razor.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\WebGrease.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\EntityFramework.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\EntityFramework.SqlServer.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.Owin.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Microsoft.Owin.Security.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Net.Http.Formatting.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Http.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Http.WebHost.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Helpers.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Mvc.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Optimization.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.Razor.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.WebPages.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.WebPages.Deployment.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\System.Web.WebPages.Razor.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Antlr3.Runtime.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\bin\Newtonsoft.Json.xml
+D:\Docs\Projects\SensorMeter2\SensorMeter\SensorMeter\obj\Debug\SensorMeter.csproj.CopyComplete

@@ -1,0 +1,26 @@
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\bin\Debug\TCPServer.exe.config
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\bin\Debug\TCPServer.exe
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\bin\Debug\TCPServer.pdb
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\obj\Debug\TCPServer.csprojResolveAssemblyReference.cache
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\obj\Debug\TCPServer.exe
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\obj\Debug\TCPServer.pdb
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\bin\Debug\BaseLib.dll
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\TCPServer\bin\Debug\BaseLib.pdb
+D:\Projects\SensorMeter\SensorMeter\TCPServer\bin\Debug\TCPServer.exe.config
+D:\Projects\SensorMeter\SensorMeter\TCPServer\bin\Debug\TCPServer.exe
+D:\Projects\SensorMeter\SensorMeter\TCPServer\bin\Debug\TCPServer.pdb
+D:\Projects\SensorMeter\SensorMeter\TCPServer\bin\Debug\BaseLib.dll
+D:\Projects\SensorMeter\SensorMeter\TCPServer\bin\Debug\BaseLib.pdb
+D:\Projects\SensorMeter\SensorMeter\TCPServer\obj\Debug\TCPServer.csprojResolveAssemblyReference.cache
+D:\Projects\SensorMeter\SensorMeter\TCPServer\obj\Debug\TCPServer.exe
+D:\Projects\SensorMeter\SensorMeter\TCPServer\obj\Debug\TCPServer.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\bin\Debug\TCPServer.exe.config
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\bin\Debug\TCPServer.exe
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\bin\Debug\TCPServer.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\bin\Debug\BaseLib.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\bin\Debug\BaseLib.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\obj\Debug\TCPServer.csprojAssemblyReference.cache
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\obj\Debug\TCPServer.exe
+D:\Docs\Projects\SensorMeter2\SensorMeter\TCPServer\obj\Debug\TCPServer.pdb

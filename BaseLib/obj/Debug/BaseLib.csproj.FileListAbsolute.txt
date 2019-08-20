@@ -1,0 +1,11 @@
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\BaseLib\bin\Debug\BaseLib.dll
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\BaseLib\bin\Debug\BaseLib.pdb
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\BaseLib\obj\Debug\BaseLib.csprojResolveAssemblyReference.cache
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\BaseLib\obj\Debug\BaseLib.dll
+c:\users\saad\documents\visual studio 2013\Projects\TCPServer\BaseLib\obj\Debug\BaseLib.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\BaseLib\bin\Debug\BaseLib.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\BaseLib\bin\Debug\BaseLib.pdb
+D:\Docs\Projects\SensorMeter2\SensorMeter\BaseLib\obj\Debug\BaseLib.csprojAssemblyReference.cache
+D:\Docs\Projects\SensorMeter2\SensorMeter\BaseLib\obj\Debug\BaseLib.csproj.CoreCompileInputs.cache
+D:\Docs\Projects\SensorMeter2\SensorMeter\BaseLib\obj\Debug\BaseLib.dll
+D:\Docs\Projects\SensorMeter2\SensorMeter\BaseLib\obj\Debug\BaseLib.pdb

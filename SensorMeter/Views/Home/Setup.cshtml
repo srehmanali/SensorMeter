@@ -1,0 +1,154 @@
+﻿@{
+    ViewBag.Title = "Setup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Setup</h2>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row" ng-app="CrudModule">
+    <div class="col-lg-12" ng-controller="CrudController">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Tank Information
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Lister
+                            </div>
+                            <div class="box">
+                                <div id="defaultTable" class="body collapse in">
+                                    <div class="table-responsive">
+                                        <table id="dataTable" class="table table-bordered table-hover datatable">
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        ID
+                                                        <i class="fa sort"></i>
+                                                    </th>
+                                                    <th>
+                                                        Code
+                                                        <i class="fa sort"></i>
+                                                    </th>
+                                                    <th>
+                                                        Name
+                                                        <i class="fa sort"></i>
+                                                    </th>
+                                                    <th>
+                                                        No. of Compartments
+                                                        <i class="fa sort"></i>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr ng-click="get(Record)" ng-repeat="Record in DataBundle" datatable>
+                                                    <td><span>{{Record.ID}}</span></td>
+                                                    <td><span>{{Record.Code}}</span></td>
+                                                    <td><span>{{Record.Name}}</span></td>
+                                                    <td><span>{{Record.Compartments}}</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-6 (nested) -->
+                    <div class="col-lg-6">
+                        <div class="box well">
+                            <div id="div-1" class="body">
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="txtID" class="control-label col-lg-4">ID</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" id="txtID" class="form-control" readonly="readonly" ng-model="Tank.ID">
+                                        </div>
+                                    </div>
+                                    <!-- /.form-group -->
+                                    <div class="form-group">
+                                        <label for="txtCode" class="control-label col-lg-4">Tank Code</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" id="txtCode" class="form-control" ng-model="Tank.Code">
+                                        </div>
+                                    </div>
+                                    <!-- /.form-group -->
+                                    <div class="form-group">
+                                        <label for="txtName" class="control-label col-lg-4">Name</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" id="txtName" class="form-control" required ng-model="Tank.Name">
+                                        </div>
+                                    </div>
+                                    <!-- /.form-group -->
+                                    <div class="form-group">
+                                        <label for="txtDescription" class="control-label col-lg-4">Description</label>
+                                        <div class="col-lg-8">
+                                            <textarea id="txtDescription" class="form-control" ng-model="Tank.Description"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="txtCompartments" class="control-label col-lg-4">Compartments</label>
+                                        <div class="col-lg-8">
+                                            <input type="text" id="txtCompartments" class="form-control" required ng-model="Tank.NumCompartment">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div id="defaultTable" class="body collapse in">
+                                            <div class="table-responsive">
+                                                <table id="dataTable" class="table table-bordered table-hover datatable">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                Serial No.
+                                                                <i class="fa sort"></i>
+                                                            </th>
+                                                            <th>
+                                                                Compartment Keys
+                                                                <i class="fa sort"></i>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr ng-click="get(Record)" ng-repeat="Record in Tank.Keys" datatable>
+                                                            <td><span>{{Record.SrNo}}</span></td>
+                                                            <td><span>{{Record.Key}}</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="box">
+                                    <input class="btn btn-primary btn-flat btn-rect" id="New" value="Create New" type="reset" ng-click="clear()" />
+                                    <input class="btn btn-success btn-flat btn-rect" id="SavaUpdate" value="Save / Update" type="submit" ng-click="save()" />
+                                    <input class="btn btn-danger btn-flat btn-rect" id="Delete" value="Delete" type="submit" ng-click="delete()" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-6 (nested) -->
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+@Scripts.Render("~/bundles/TankScripts")

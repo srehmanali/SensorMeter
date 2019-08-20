@@ -1,0 +1,211 @@
+﻿@{
+    ViewBag.Title = "Process";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Compartment Processes</h2>
+        </div>
+    </div>
+</div>
+
+<div class="row" ng-app="CrudModule">
+    <div class="col-lg-12" ng-controller="CrudController">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Sensor Number 1
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="box well">
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Select Tank</label>
+                                <div class="col-lg-6">
+                                    <select class="form-control"></select>
+                                </div>
+                            </div>
+                            <br /><br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Select Key</label>
+                                <div class="col-lg-6">
+                                    <select class="form-control"></select>
+                                </div>
+                            </div>
+                            <br /><br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Leakage</label>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Connection</label>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-4">Timer</label>
+                                <div class="col-lg-8">
+                                    <input type="text" id="txtID" class="form-control" readonly="readonly">
+                                </div>
+                            </div>
+                            <br /><br />
+                            <div class="form-group">
+                                <div class="col-lg-4">
+                                    <button type="button" class="btn btn-outline btn-success">Start</button>
+                                </div><div class="col-lg-4">
+                                    <button type="button" class="btn btn-outline btn-danger">Stop</button>
+                                </div><div class="col-lg-4">
+                                    <button type="button" class="btn btn-outline btn-info">Report</button>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Pressure Live Chart
+                            </div>
+                            <!-- /.panel-heading -->
+                            <div class="panel-body">
+                                <div id="linechart"></div>
+                            </div>
+                            <!-- /.panel-body -->
+                        </div>
+                        <!-- /.panel -->
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+    <div class="col-lg-12" ng-controller="CrudController">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Sensor Number 2
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="box well">
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Select Tank</label>
+                                <div class="col-lg-6">
+                                    <select class="form-control"></select>
+                                </div>
+                            </div>
+                            <br /><br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Select Key</label>
+                                <div class="col-lg-6">
+                                    <select class="form-control"></select>
+                                </div>
+                            </div>
+                            <br /><br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Leakage</label>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-6">Connection</label>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="industrial led size one">
+                                        <div class="meter green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label class="control-label col-lg-4">Timer</label>
+                                <div class="col-lg-8">
+                                    <input type="text" id="txtID" class="form-control" readonly="readonly">
+                                </div>
+                            </div>
+                            <br /><br />
+                            <div class="form-group">
+                                <div class="col-lg-4">
+                                    <button type="button" class="btn btn-outline btn-success">Start</button>
+                                </div><div class="col-lg-4">
+                                    <button type="button" class="btn btn-outline btn-danger">Stop</button>
+                                </div><div class="col-lg-4">
+                                    <button type="button" class="btn btn-outline btn-info">Report</button>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Pressure Live Chart
+                            </div>
+                            <!-- /.panel-heading -->
+                            <div class="panel-body">
+                                <div id="linechart"></div>
+                            </div>
+                            <!-- /.panel-body -->
+                        </div>
+                        <!-- /.panel -->
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+@section scripts{
+    <!--Reference the SignalR library. -->
+    <script src="../Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <!--Reference the autogenerated SignalR hub script. -->
+    <script src="../signalr/hubs"></script>
+    <!--Add script to update the page and send messages.-->
+    <script>
+
+        var chat = $.connection.chatHub;
+        chat.client.UpdateChart = function (sensorId, data) {
+            alert(sensorId + " : " + data);
+        };
+        $.connection.hub.start().done(function () { });
+    </script>
+}

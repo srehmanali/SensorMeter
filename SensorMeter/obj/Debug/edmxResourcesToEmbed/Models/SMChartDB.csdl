@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMChartModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="JobDetailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Pressure" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Time" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="SMChartEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Compartments" EntityType="SMChartModel.Compartment" />
+    <EntitySet Name="Tanks" EntityType="SMChartModel.Tank" />
+    <AssociationSet Name="FK_Tank_Compartment" Association="SMChartModel.FK_Tank_Compartment">
+      <End Role="Compartment" EntitySet="Compartments" />
+      <End Role="Tank" EntitySet="Tanks" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Compartment">
+    <Key>
+      <PropertyRef Name="CompartmentID" />
+    </Key>
+    <Property Name="CompartmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompartmentKey" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="ModifyDate" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Tanks" Relationship="SMChartModel.FK_Tank_Compartment" FromRole="Compartment" ToRole="Tank" />
+  </EntityType>
+  <EntityType Name="Tank">
+    <Key>
+      <PropertyRef Name="TankID" />
+    </Key>
+    <Property Name="TankID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompartmentID" Type="Int32" Nullable="false" />
+    <Property Name="TankCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TankName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TankDescription" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NumCompartment" Type="Int32" Nullable="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="ModifyDate" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Compartment" Relationship="SMChartModel.FK_Tank_Compartment" FromRole="Tank" ToRole="Compartment" />
+  </EntityType>
+  <Association Name="FK_Tank_Compartment">
+    <End Type="SMChartModel.Compartment" Role="Compartment" Multiplicity="1" />
+    <End Type="SMChartModel.Tank" Role="Tank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Compartment">
+        <PropertyRef Name="CompartmentID" />
+      </Principal>
+      <Dependent Role="Tank">
+        <PropertyRef Name="CompartmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
